@@ -20,7 +20,7 @@ nav {
 }
 
 nav a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   padding: 20px;
   transition: opacity .2s ease-in-out;
@@ -30,6 +30,5 @@ nav a:hover {
   color: black;
 }
 
-.toggler {
-  visibility: hidden;
-}
+.toggler { visibility: hidden; }
+\n
