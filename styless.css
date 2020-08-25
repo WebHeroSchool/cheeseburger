@@ -51,10 +51,6 @@ body {
   transition: opacity 1s ease-in;
 }
 
-.btn:hover {
-  opacity: .7;
-}
-
 @media (max-width: 800px) {
   nav {
     transform: scale(1, 0);
@@ -152,4 +148,7 @@ body {
     font-size: 28px;
   }
 }
-/*qqq*/
+
+.btn:hover {
+  opacity: .7;
+}
