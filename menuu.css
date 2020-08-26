@@ -1,0 +1,35 @@
+.menu-wrap {
+  background-color: rgba(0, 214, 170, .75);
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 214, 170, .75);
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  transform-origin: top;
+  transition: transform .4s ease-in-out;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  transition: opacity .2s ease-in-out;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.toggler {
+  visibility: hidden;
+}
