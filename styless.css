@@ -149,6 +149,4 @@ body {
   }
 }
 
-.btn:hover {
-  opacity: .7;
-}
+.btn:hover { opacity: .7; }
